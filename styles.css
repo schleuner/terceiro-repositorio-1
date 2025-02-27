@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap');
+
+:root{
+--cor-principal: #8E0000;
+--cor1: #951A00;
+--cor2: #CF2124;
+--cor3: #F5F5A4;
+--preto: #000000;
+--branco: #ffffff;
+}
+
+body {font-size: 1rem;
+    font-family: 'Grenze Gotisch'; /*Grenze Gotisch*/
+    ;}
