@@ -48,4 +48,13 @@ body {font-size: 1rem;
         position: relative;
         padding-top: 5rem;
         margin-top: 3rem;
+        background: var(--cor3);
+        background-size: 180px 180px; /*ajuste se necessário*/
     }
+
+#kinguio .container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1; /* Garante que o conteudo fique acima das imagens de background*/
+}
