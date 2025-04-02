@@ -36,3 +36,16 @@ body {font-size: 1rem;
     .form-control {
         background-color: var(--cor2);
     }
+
+    section {
+        padding-bottom: 5rem;
+    }
+
+    .display-4 {
+        text-shadow: -5px 5px var(--cor2);
+    }
+    #Kinguio {
+        position: relative;
+        padding-top: 5rem;
+        margin-top: 3rem;
+    }
