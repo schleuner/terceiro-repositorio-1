@@ -13,34 +13,48 @@ body {font-size: 1rem;
     font-family: 'Grenze Gotisch'; /*nome da fonte do krl, pika, foda, linda*/
     ;}
 
-    #contato {
-        background:  var(--cor-principal);
-        background-size: cover;
-        padding: 4rem 0;
-    }
-
-    .formulario {
-        background-color: var(--branco);
-        padding: 2rem;
-        border-radius: 10px;
-        box-shadow: 0 0 10px  rgba(0, 0, 0, 1);
-        font-weight: bold;
-    }
-
-    .formulario button {
-        background-color: var(--cor3);
-        border: none; 
-        font-weight: bold;
-    }
-
-    .form-control {
-        background-color: var(--cor2);
-    }
 
     section {
         padding-bottom: 5rem;
     }
 
+    
+    header {
+        background-color: var(--branco);
+    }
+    
+    .nav-link {
+        color: var(--laranja-claro);
+        font-weight: 600;
+    }
+    
+    .inicio-fundo {
+        background-image: url(img/4965007.jpg);
+        background-size: cover;
+        background-position: right;
+        border-radius: 80px;
+        width: 100%;
+        height: 606px;
+        padding: 40px;
+        margin: 0 auto;
+    }
+    
+    .esquerda-conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap:1rem;
+    }
+    
+    .botao-inicio {
+        background-color: var(--laranja-claro);
+        border-radius: 30px;
+        border: none;
+        width: 14em;
+        height: 3em;
+        align-content: center;
+    }
+    
     .display-4 {
         text-shadow: -5px 5px var(--cor2);
     }
@@ -57,4 +71,29 @@ body {font-size: 1rem;
     align-items: center;
     position: relative;
     z-index: 1; /* Garante que o conteudo fique acima das imagens de background*/
+}
+
+
+#contato {
+    background: var(--cor-principal);
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.formulario{
+    background-color: var(--branco);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color: var(--cor3);
+    border: none;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: var(--cor2);
 }
